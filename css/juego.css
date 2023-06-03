@@ -1,0 +1,36 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+button{
+    align-items: center;
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(1, 350px);
+/*border: 1px solid black;*/
+   
+}
+
+#mensaje {
+    margin-top: 30px;
+    font-weight: bold;
+    color: green; /* Color predeterminado */
+
+    
+}
+
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    border-style: dashed;
+    border: 1px solid black;
+    margin: 6px;
+    align-items: center;
+    border-radius: 5px;
+}
